@@ -187,6 +187,7 @@ if __name__ == "__main__":
         pred_mask = np.array(reconstructed_image,dtype=np.float32)
         pred_masks.append(pred_mask/255.0)
         test_img = test_img*255
+        pred_mask = pred_mask*255
         manual_mask = manual_mask*255
         
         # can skip below lines and use plt.imshow(pre_mask,cmap='gray)
