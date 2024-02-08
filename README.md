@@ -17,7 +17,7 @@ Loss Function: BCE+Logitloss. Also tried DiceBCE,MSE and Huberloss(didn’t work
 Optimizer: Adam/RMSEProp
 Scheduler: to adjust learning rate on plateau
 
-        ![image](https://github.com/AkashWelkin/Visual-Segmentation-of-shape-by-cause-in-PyTorch/assets/32175280/10c08032-9823-4218-86c8-501aa89104d6)
+![image](https://github.com/AkashWelkin/Visual-Segmentation-of-shape-by-cause-in-PyTorch/assets/32175280/10c08032-9823-4218-86c8-501aa89104d6)
 
 
  
