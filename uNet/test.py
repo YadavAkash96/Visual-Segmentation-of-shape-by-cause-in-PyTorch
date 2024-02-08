@@ -193,7 +193,7 @@ if __name__ == "__main__":
         # can skip below lines and use plt.imshow(pre_mask,cmap='gray)
         test_img_rgb = cv2.cvtColor(test_img.astype(np.float32), cv2.COLOR_GRAY2RGB)
         pred_mask_rgb = cv2.cvtColor(pred_mask.astype(np.float32), cv2.COLOR_GRAY2RGB)
-        cat_images = np.concatenate([pred_mask_rgb], axis=1)
+        cat_images = np.concatenate([test_img_rgb,pred_mask_rgb,manual_mask], axis=1)
         cv2.imwrite(f"{SAVE_IMG_DIR}/{idx+SAVE_IMG_NUM}.png", cat_images)
         
     #to get accuracy using RMSE calculation to calculate comparative distance between cloth and distance        
