@@ -19,5 +19,12 @@ Scheduler: to adjust learning rate on plateau
 
 ![image](https://github.com/AkashWelkin/Visual-Segmentation-of-shape-by-cause-in-PyTorch/assets/32175280/10c08032-9823-4218-86c8-501aa89104d6)
 
+**Results:**
+
+![image](https://github.com/AkashWelkin/Visual-Segmentation-of-shape-by-cause-in-PyTorch/assets/32175280/06242f24-b6f3-4e99-8ca4-363645910a51) ![image](https://github.com/AkashWelkin/Visual-Segmentation-of-shape-by-cause-in-PyTorch/assets/32175280/300ffb48-b898-4067-bf94-2eb69cbabca3)
+Predicted mask (w/o binary)          manual labelling
+
+
+
 
  
