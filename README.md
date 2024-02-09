@@ -16,30 +16,19 @@ The goal of this project was to implement the paper and offer insights into whet
 ## 1. Data Gathering and Generating
 **About**: Select 100 (can be taken more) 3D objects, scale to a unit sphere, drape them with cloth using physics simulation, and store the final stabilized cloth rendering.
 ###   Methodology:
-          **Object Selection:**
-Link: https://huggingface.co/datasets/ShapeNet/ShapeNetCore (fill in
-details and request approval to access data)
-The curation process involved selecting 100 3D objects from a vast
-repository containing more than 25,000 diverse and varied 3D models.
-Objects were chosen based on their complexity and geometric diversity
-to ensure a robust simulation.
-Store the objects with file name from 1 to 100 with .obj as extension
-within Object folder.
-Scaling to Unit Sphere:
-The Blender tool was utilized to uniformly scale selected 3D objects to
-fit within a unit sphere.
-The normalization for objects was done using a custom Python script
-(python script), takes less than a minute for 100 objects.
-Cloth Draping (Physics Simulation):
-Blender's built-in physics simulation engine was employed to
-realistically drape the scaled 3D objects with cloth.
-The simulation took into account parameters such as cloth material
-properties, air viscosity, collision detection with the objects, etc.
-Rendering and exporting the file(.obj):
-The final step involved rendering the cloth-draped 3D objects within
-Blender to produce visually appealing and realistic results.
-Get rid of the object underneath the cloth drape and export to be saved
-with file name from 1 to 100 with .obj as extension within Cloth folder
+  **Object Selection:** Link: https://huggingface.co/datasets/ShapeNet/ShapeNetCore (fill in details and request approval to access data).
+                        The curation process involved selecting 100 3D objects from a vast repository containing more than 25,000 diverse and varied 3D models.
+                        Objects were chosen based on their complexity and geometric diversity to ensure a robust simulation.
+                        Store the objects with file name from 1 to 100 with .obj as extension within Object folder.
+  **Scaling to Unit Sphere:** The Blender tool was utilized to uniformly scale selected 3D objects to fit within a unit sphere.
+                              The normalization for objects was done using a custom Python script (python script), takes less than a minute for 100 objects.
+  **Cloth Draping (Physics Simulation):** Blender's built-in physics simulation engine was employed to realistically drape the scaled 3D objects with cloth.
+                                     The simulation took into account parameters such as cloth material properties, air viscosity, collision detection with the
+                                     objects, etc.
+  **Rendering and exporting the file(.obj):** The final step involved rendering the cloth-draped 3D objects within Blender to produce visually appealing and 
+                                              realistic results.
+                                              Get rid of the object underneath the cloth drape and export to be saved with file name from 1 to 100 with .obj as 
+                                              extension within Cloth folder
 
 
 
