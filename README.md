@@ -1,6 +1,7 @@
 # Visual-Segmentation-of-shape-by-cause-in-PyTorch
 
 **Objective:** In a virtual painting task, participants indicated which surface ridges appeared to be caused by the hidden object and which were due to the drapery.
+
 **Source:** "The Veiled Virgin illustrates visual segmentation of shape by cause" (https://doi.org/10.1073/pnas.1917565117)
 
 
