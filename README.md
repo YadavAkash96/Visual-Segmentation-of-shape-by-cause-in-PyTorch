@@ -1,9 +1,9 @@
 # Visual-Segmentation-of-shape-by-cause-in-PyTorch
 
-**Objective:** In a virtual painting task, participants indicated which surface ridges appeared to be caused by the hidden object and which were due to the drapery.
-
 **Source:** "The Veiled Virgin illustrates visual segmentation of shape by cause" (https://doi.org/10.1073/pnas.1917565117)
 
+**Objective:** In a virtual painting task, participants indicated which surface ridges appeared to be caused by the hidden object and which were due to the drapery.
+The goal of this project was to implement the paper and offer insights into whether a Deep Neural Network (DNN) can outperform humans in producing results.
 
 I have used UNet’s original paper to understand and build UNet architecture, although few changes have been made to the original architecture of UNet for better performance on our challenge. Batch Normalization and Dropout layers have been added after every set of conv layer, to normalize data and to make model less bias towards training features.
 
