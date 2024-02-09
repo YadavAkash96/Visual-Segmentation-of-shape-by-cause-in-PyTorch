@@ -64,7 +64,7 @@ The goal of this project was to implement the paper and offer insights into whet
  towards training features.
 
 ![image](https://github.com/AkashWelkin/Visual-Segmentation-of-shape-by-cause-in-PyTorch/assets/32175280/2c71a5ba-1fd1-4a08-8942-1a88574310d2)
-          Source: https://doi.org/10.48550/arXiv.1505.04597
+                          Source: https://doi.org/10.48550/arXiv.1505.04597
 
 - **Dataset:**
     - Normalized data between 0 – 1.
