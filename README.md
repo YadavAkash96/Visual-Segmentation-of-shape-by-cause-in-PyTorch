@@ -6,7 +6,7 @@
 The goal of this project was to implement the paper and offer insights into whether a Deep Neural Network (DNN) can outperform humans in producing results.
 
 
-![image](https://github.com/AkashWelkin/Visual-Segmentation-of-shape-by-cause-in-PyTorch/assets/32175280/5da1b838-4ff5-45f8-bcbe-6e75e7f4e33f)  ![image](https://github.com/AkashWelkin/Visual-Segmentation-of-shape-by-cause-in-PyTorch/assets/32175280/46097d3b-3da5-4d84-bc87-e210f71ae657)
+![image](https://github.com/AkashWelkin/Visual-Segmentation-of-shape-by-cause-in-PyTorch/assets/32175280/f71b7c70-a0ae-4fd1-a1d3-a990c98d2860)  ![image](https://github.com/AkashWelkin/Visual-Segmentation-of-shape-by-cause-in-PyTorch/assets/32175280/46097d3b-3da5-4d84-bc87-e210f71ae657)
 
 
 I have used UNet’s original paper to understand and build UNet architecture, although few changes have been made to the original architecture of UNet for better performance on our challenge. Batch Normalization and Dropout layers have been added after every set of conv layer, to normalize data and to make model less bias towards training features.
