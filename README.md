@@ -7,10 +7,10 @@ The goal of this project was to implement the paper and offer insights into whet
 
 ![image](https://github.com/AkashWelkin/Visual-Segmentation-of-shape-by-cause-in-PyTorch/assets/32175280/49f3cf76-54fe-4f2f-bebf-41de5b86c06a)
 
-**Followed in Three parts:
-1. Data Gathering and Generating
-2. Calculate distance and Generate Ground truth
-3. uNet Training**
+**Followed in Three parts:**
+## 1. Data Gathering and Generating
+## 2. Calculate distance and Generate Ground truth
+## 3. uNet Training
 
 I have used UNet’s original paper to understand and build UNet architecture, although few changes have been made to the original architecture of UNet for better performance on our challenge. Batch Normalization and Dropout layers have been added after every set of conv layer, to normalize data and to make model less bias towards training features.
 
